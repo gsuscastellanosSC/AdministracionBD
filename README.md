@@ -13,4 +13,8 @@
         5. ¿Qué es Oracle?
     **Class#6**
         6. Versiones de Oracle
+    **Class#7**
+        7. Requisitos
 **Links**
+    Oracle Database Documentation:
+        https://docs.oracle.com/en/database/oracle/oracle-database/index.html
