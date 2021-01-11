@@ -11,4 +11,6 @@
         4. Preguntas y Respuestas
     **Class#5**
         5. ¿Qué es Oracle?
+    **Class#6**
+        6. Versiones de Oracle
 **Links**
