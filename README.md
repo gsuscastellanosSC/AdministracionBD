@@ -7,4 +7,6 @@
         2. Contenido del curso
     **Class#3**
         3. Nota sobre las valoraciones del curso
+    **Class#4**
+        4. Preguntas y Respuestas
 **Links**
