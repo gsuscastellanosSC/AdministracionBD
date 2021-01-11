@@ -5,4 +5,6 @@
         1. Introducción al curso
     **Class#2**
         2. Contenido del curso
+    **Class#3**
+        3. Nota sobre las valoraciones del curso
 **Links**
