@@ -15,6 +15,8 @@
         6. Versiones de Oracle
     **Class#7**
         7. Requisitos
+    **Class#8**
+        8. Usuarios
 **Links**
     Oracle Database Documentation:
         https://docs.oracle.com/en/database/oracle/oracle-database/index.html
