@@ -117,6 +117,13 @@
     **Class#37**
         37. Introducción al arranque de la Base de Datos
             C:\u01\app\oracle\product\19.3.0\db_1\dbs>
+    **Class#38**            
+        38. Arrancar la Base de datos. Comando STARTUP
+            shutdown immediate => Stop
+            startup => Start 
+            startup nomount,MOUNT, OPEN => Start in a specific phase
+            ALTER DATABASE MOUNT;
+            ALTER DATABASE OPEN;          
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
