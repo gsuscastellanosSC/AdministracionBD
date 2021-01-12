@@ -38,6 +38,9 @@
         16. Creación de grupos y usuario necesarios
     **Class#17**
         17. Configurar SELINUX
+**Sección 5:Instalación de Oracle con RPM**
+    **Class#18**
+        18. Instalación de la Base de datos con RPM
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
