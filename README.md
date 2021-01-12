@@ -123,7 +123,13 @@
             startup => Start 
             startup nomount,MOUNT, OPEN => Start in a specific phase
             ALTER DATABASE MOUNT;
-            ALTER DATABASE OPEN;          
+            ALTER DATABASE OPEN;
+    **Class#39**
+        39. Parar la Base de Datos. Introducción
+            shutdown NORMAL => Espera que los usuarios conectados cierren sesión(Poco usada).
+            shutdown immediate => Termina transacciones y envia rollback(Más usada y Más recomendada).
+            shutdown transactional => Espera que terminen transacciones en marcha, pero no permite que comience ninguna nueva.
+            shutdown ABORT: No espera a nada. Solo debería usarse en casos exepcionales.
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
