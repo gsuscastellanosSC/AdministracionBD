@@ -41,6 +41,9 @@
 **Sección 5:Instalación de Oracle con RPM**
     **Class#18**
         18. Instalación de la Base de datos con RPM
+**Sección 6:Instalación de Oracle en Linux con Zip**
+    **Class#19**
+        19. Instalación en Linux
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
