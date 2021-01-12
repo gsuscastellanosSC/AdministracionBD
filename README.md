@@ -70,6 +70,8 @@
                 PGA (PROGRAM GLOBAL AREA)*:
                     -> UGA:
                     -> STACK:
+    **Class#23**
+        23. Procesos
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
