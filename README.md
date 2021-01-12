@@ -74,6 +74,8 @@
         23. Procesos
     **Class#24**
         24. Ficheros
+    **Class#25**
+        25. Arquitectura Multitenant(Multi contenedor)
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
