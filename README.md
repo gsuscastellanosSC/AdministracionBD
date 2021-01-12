@@ -130,6 +130,8 @@
             shutdown immediate => Termina transacciones y envia rollback(Más usada y Más recomendada).
             shutdown transactional => Espera que terminen transacciones en marcha, pero no permite que comience ninguna nueva.
             shutdown ABORT: No espera a nada. Solo debería usarse en casos exepcionales.
+    **Class#40**    
+        40. Parar la Base de Datos. Comando SHUTDOWN
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
