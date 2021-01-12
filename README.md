@@ -27,6 +27,9 @@
 **Sección 3:Preparación de Requisitos con RPM**
     **Class#12**
         12. Preparación de requisitos automática con RPM
+**Sección 4:Preparación de requisitos manual**
+    **Class#13**
+        13. Instalación en Linux. Configurar parametros de Kernel
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
