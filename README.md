@@ -149,6 +149,13 @@
                         -> USER_: Tablas a las que el usuario tiene acceso.
                     -> Vistas dinámicas(Performance Views)
                         V$
+    **Class#43**
+        43. V$FIXED_TABLE. Encontrar informacion de Vistas y Tablas dinámicas
+            -> V$FIXED_TABLE : Listado de todas las vistas dinámicas.
+                * Prefijo X: Tablas del Sistema.
+                * Prefijo GV$: Vistas de instancias RAC.
+            Comands sql plus: COL NAME FORMAT A40, SET PAUSE ON, SET PAUSE OFF
+            SELECT * FROM V$FIXED_TABLE WHERE NAME LIKE'%MEMORY%';
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
