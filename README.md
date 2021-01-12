@@ -66,8 +66,8 @@
                 -> JAVA POOL:
                 -> STREAMS POOL:
                 -> FIXED POOL:
-                -> REDO LOG BUFFER:
-                PGA (PROGRAM GLOBAL AREA)*:
+                -> RED LOG BUFFER*:
+                -> PGA (PROGRAM GLOBAL AREA)*:
                     -> UGA:
                     -> STACK:
     **Class#23**
@@ -76,6 +76,8 @@
         24. Ficheros
     **Class#25**
         25. Arquitectura Multitenant(Multi contenedor)
+    **Class#26**
+        26. Visión general de una transacción Oracle
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
