@@ -34,6 +34,8 @@
         14. Instalación en Linux. Configurar límites usuario Oracle
     **Class#15**
         15. Instalar paquetes de Linux
+    **Class#16**    
+        16. Creación de grupos y usuario necesarios
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381

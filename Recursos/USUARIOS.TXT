@@ -1,0 +1,18 @@
+###### LOS IDS PUEDEN SER CUALQUIERA
+
+groupadd  oinstall
+groupadd dba
+groupadd  oper
+
+####	OPCIONALES
+#groupadd  backupdba
+#groupadd  dgdba
+#groupadd  kmdba
+#groupadd  asmdba
+#groupadd  asmoper
+#groupadd  asmadmin
+#groupadd  racdba
+
+
+#####
+useradd -g oinstall -G dba,oper oracle
