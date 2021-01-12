@@ -22,6 +22,10 @@
         9. Tipos de instalación en Linux
     **Class#10**
         10. Descarga de Oracle
+    **Class#11**
+        11. OFA- Optimal Flexible Architecture
 **Links**
+    OFA- Optimal Flexible Architecture:
+        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
     Oracle Database Documentation:
         https://docs.oracle.com/en/database/oracle/oracle-database/index.html
