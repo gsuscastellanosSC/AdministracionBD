@@ -81,6 +81,10 @@
 **Sección 8:Creación de Base de Datos**
     **Class#27**
         27. Consejo Multitenant
+    **Class#28**
+        28. Creación de Base de datos simple. DBCA
+            BDA: orcl
+            PASS: Test2021*
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
