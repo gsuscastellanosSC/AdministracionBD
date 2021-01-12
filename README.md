@@ -93,6 +93,8 @@
         31. Uso de DBCA en modo avanzado. Crear otro Base de Datos
     **Class#32**
         32. Repaso memoria,ficheros y procesos
+    **Class#33**
+        33. Configurar variables de entorno. oraenv
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
