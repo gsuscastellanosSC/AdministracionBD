@@ -95,6 +95,12 @@
         32. Repaso memoria,ficheros y procesos
     **Class#33**
         33. Configurar variables de entorno. oraenv
+**Sección 9:SQL*Plus. Herramienta de administración**
+    **Class#34**
+        Introducción a SQL*Plus
+        sqlplus user/pass
+        sqlplus system/Test2021* as sysdba
+        show user = show user login
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
