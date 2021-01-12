@@ -89,6 +89,8 @@
         29. Ficheros y directorios creados
     **Class#30**
         30. Procesos y memoria  
+    **Class#31**
+        31. Uso de DBCA en modo avanzado. Crear otro Base de Datos
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
