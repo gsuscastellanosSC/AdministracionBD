@@ -44,6 +44,8 @@
 **Sección 6:Instalación de Oracle en Linux con Zip**
     **Class#19**
         19. Instalación en Linux
+    **Class#20**
+        20. Repaso por los directorios creados
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
