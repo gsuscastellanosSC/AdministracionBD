@@ -86,7 +86,9 @@
             BDA: orcl
             PASS: Test2021*
     **Class#29**
-        29. Ficheros y directorios creados    
+        29. Ficheros y directorios creados
+    **Class#30**
+        30. Procesos y memoria  
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
