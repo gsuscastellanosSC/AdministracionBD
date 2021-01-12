@@ -101,6 +101,11 @@
         sqlplus user/pass
         sqlplus system/Test2021* as sysdba
         show user = show user login
+    **Class#35**
+        35. Un paseo por SQL*Plus
+            cd C:\u01\app\oracle\product\19.3.0\db_1;
+            sqlplus system/Test2021* as sysdba;
+            help index
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
