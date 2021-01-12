@@ -46,6 +46,9 @@
         19. Instalación en Linux
     **Class#20**
         20. Repaso por los directorios creados
+**Sección 7:Arquitectura general de ORacle**    
+    **Class#21**
+        21. Arquitectura básica. Instancia y Base de Datos
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
