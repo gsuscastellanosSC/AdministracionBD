@@ -49,6 +49,27 @@
 **Sección 7:Arquitectura general de ORacle**    
     **Class#21**
         21. Arquitectura básica. Instancia y Base de Datos
+    **Class#22**
+        22. Memoria
+            SGA (SYSTEM GLOBAL AREA)
+                -> SHARED POOL*:
+                   -> SHARED SQL AREA:
+                   -> DATA DICTIONARY CACHE:
+                   -> RESULT CACHE
+                   -> OTRAS
+                -> BUFFER CACHE*:
+                    KEEP POOL
+                    RECYCLE POOL
+                    BUFFER CACHE 1
+                    BUFFER CACHE 2
+                -> LARGE POOL:
+                -> JAVA POOL:
+                -> STREAMS POOL:
+                -> FIXED POOL:
+                -> REDO LOG BUFFER:
+                PGA (PROGRAM GLOBAL AREA)*:
+                    -> UGA:
+                    -> STACK:
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
