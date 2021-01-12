@@ -24,6 +24,9 @@
         10. Descarga de Oracle
     **Class#11**
         11. OFA- Optimal Flexible Architecture
+**Sección 3:Preparación de Requisitos con RPM**
+    **Class#12**
+        12. Preparación de requisitos automática con RPM
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
