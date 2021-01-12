@@ -113,6 +113,10 @@
             r = execute data in buffer.
             ed = edit in vi, nano etc...
             def_edidor=code = define code with edit by default.
+**Sección 10:Administración básica de la Base de datos**
+    **Class#37**
+        37. Introducción al arranque de la Base de Datos
+            C:\u01\app\oracle\product\19.3.0\db_1\dbs>
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
