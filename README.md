@@ -20,6 +20,8 @@
         8. Usuarios
     **Class#9**
         9. Tipos de instalación en Linux
+    **Class#10**
+        10. Descarga de Oracle
 **Links**
     Oracle Database Documentation:
         https://docs.oracle.com/en/database/oracle/oracle-database/index.html
