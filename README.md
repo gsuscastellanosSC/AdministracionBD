@@ -138,6 +138,17 @@
             **GRANT CONNECT, RESOURCE TO USU1;**
             ALTER SYSTEM QUIESCE RESTRICTED;
             ALTER SYSTEM UNQUIESCE;
+    **Class#42**
+        42. Diccionario de Datos: Tablas y Vistas
+            **Diccionario de datos**
+                **Conjunto de tablas con los metadatos de la BD.**
+                    -> Tablas Basicas: Estas almacenan información sobre la BD.
+                    -> Vistas: Permiten ver los datos de las tablas basicas en forma legible.
+                        -> Prefijo DBA_: Datos de todas la entidades de la BD.
+                        -> ALL_: Objetos sobre los que el usuario tiene privilegios.
+                        -> USER_: Tablas a las que el usuario tiene acceso.
+                    -> Vistas dinámicas(Performance Views)
+                        V$
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
