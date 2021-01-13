@@ -165,6 +165,8 @@
             => show parameter;
             => select * from V$parameter;  
             Comands sql plus: sqlplus /nolog
+        **Class#46**
+            46. Fichero de parámetros SPFILE
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
