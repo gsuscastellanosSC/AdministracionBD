@@ -156,10 +156,15 @@
                 * Prefijo GV$: Vistas de instancias RAC.
             Comands sql plus: COL NAME FORMAT A40, SET PAUSE ON, SET PAUSE OFF
             SELECT * FROM V$FIXED_TABLE WHERE NAME LIKE'%MEMORY%';
-    **Class#44**    
+    **Class#44**
         44. Ejemplo con vistas V$. Recuperar información de la SGA
             select * from V$SGA;   V$SGA: Memoria
-            select * from V$SGAinfo;      
+            select * from V$SGAinfo;
+    **Class#45**
+        45. Parámetros de la Base de datos
+            => show parameter;
+            => select * from V$parameter;  
+            Comands sql plus: sqlplus /nolog
 **Links**
     OFA- Optimal Flexible Architecture:
         https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
