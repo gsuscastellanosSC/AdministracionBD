@@ -185,7 +185,7 @@
            ALTER SESSION SET NLS_LANGUAGE='SPANISH';
            Comands sql plus: DESC V$PARAMETER;
 # Class#49
-     49. Cambiar parametros a nivel de sistema
+       49. Cambiar parametros a nivel de sistema
           select name, value from V$System_parameter where name ='processes' => Procesesos concurrentes
           ALTER SYSTEM SET processes=400 => Se obtiene error debido a que el parametro no puede ser cambiado en "caliente"
           * Cambiar parametro en file SPFILE
@@ -196,6 +196,15 @@
                  select name, value from V$System_parameter where name ='optimizer_mode';
                  ALTER SYSTEM SET optimizer_mode=FIRST_ROWS SCOPE=MEMORY;
          * scope=BOTH: Modifica el fichero de parametros(SPFILE) y en memory.
+# Class#50
+       50. Introducción a las conexiones y Redes en Oracle
+              BEQ: Conexión clinete <-> BD
+              LISTENER: Conexiones remotas desde un cliente.
+              
+              Cliente    =>     Listener     =>        BD
+                                          Service Name= DB_NAME+DB_DOMAIN
+              TNSNAMES.ORA: Ficheros donde se define el acceso al servidor de BD.
+              LISTENER.ORA: Se definen las bases de datos que esta escuchando el listener.
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
