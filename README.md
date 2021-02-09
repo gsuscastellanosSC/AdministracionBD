@@ -175,7 +175,15 @@
            SELECT NAME, VALUE FROM V$SPPARAMETER; WHERE NAME LIKE'%%' => Valores originales del SPFILE.
            SPFILE => Parametros definidos en el sistema(Arranca la bases de datos parametros tal cual como se definen en SPFILE).
            SYSTEM => Runtime en la instancia(A nivel de instancia de pueden cambiar algunos parametros).
-           SESION => Parametros que tengo ahora mismo en sesion(A nivel de sesion se pueden cambiar algunos parametros).   
+           SESION => Parametros que tengo ahora mismo en sesion(A nivel de sesion se pueden cambiar algunos parametros).
+# Class#48
+       48. Cambiar parametros a nivel de sesion
+           ALTER SESSION; modificar parametos a nivel de session.
+           ALTER SYSTEM;  modificar parametos a nivel de system.
+
+           SELECT NAME, VALUE FROM V$PARAMETER WHERE NAME LIKE'%langua%';
+           ALTER SESSION SET NLS_LANGUAGE='SPANISH';
+           Comands sql plus: DESC V$PARAMETER;    
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
