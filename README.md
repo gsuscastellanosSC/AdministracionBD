@@ -183,7 +183,19 @@
 
            SELECT NAME, VALUE FROM V$PARAMETER WHERE NAME LIKE'%langua%';
            ALTER SESSION SET NLS_LANGUAGE='SPANISH';
-           Comands sql plus: DESC V$PARAMETER;    
+           Comands sql plus: DESC V$PARAMETER;
+# Class#49
+     49. Cambiar parametros a nivel de sistema
+          select name, value from V$System_parameter where name ='processes' => Procesesos concurrentes
+          ALTER SYSTEM SET processes=400 => Se obtiene error debido a que el parametro no puede ser cambiado en "caliente"
+          * Cambiar parametro en file SPFILE
+              SELECT name, value from V$System_parameter where name ='processes';
+              ALTER SYSTEM SET processes=400 SCOPE=SPFILE;
+              SHUTDOWN IMMEDIATE;
+         * Cambiar parametro en MEMORY
+                 select name, value from V$System_parameter where name ='optimizer_mode';
+                 ALTER SYSTEM SET optimizer_mode=FIRST_ROWS SCOPE=MEMORY;
+         * scope=BOTH: Modifica el fichero de parametros(SPFILE) y en memory.
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
