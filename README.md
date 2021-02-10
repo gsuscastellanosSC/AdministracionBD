@@ -245,8 +245,10 @@
               show PARAMETEr disparchers;
 # Class#61
        61. Cambios de Enterprise Manager en la 19c
-# Class#62       
+# Class#62
        62. Repaso Enterprise Manager
+# Class#63
+       63. Ejemplo: Cambiar parámetros de la Base de datos con EM
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
