@@ -205,7 +205,7 @@
                                           Service Name= DB_NAME+DB_DOMAIN
               TNSNAMES.ORA: Ficheros donde se define el acceso al servidor de BD.
               LISTENER.ORA: Se definen las bases de datos que esta escuchando el listener.
-# Class#51       
+# Class#51
        51. Conexiones locales y servicios
               ps -ef | grep LOCAL
               oracleORCLCDB (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))
@@ -213,6 +213,9 @@
               select * from v$system_parameter where name='service_names';
               select * from v$system_parameter where name='db_name';
               select * from v$system_parameter where name='db_domain';
+# Class#52       
+       52. Formas de Conexión
+              sqlplus system/Test2021* as sysdba@node1:1521/orcl
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
