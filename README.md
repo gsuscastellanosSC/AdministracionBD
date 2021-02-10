@@ -226,6 +226,10 @@
        54. Crear un Listener
               * netca: Asistent with gui
               * $ORACLE_HOME/bin/lsnrctl start
+# Class#55
+       55. Utilidad LSNRCTL
+              * status
+              * services
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
