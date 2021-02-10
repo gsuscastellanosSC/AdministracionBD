@@ -240,6 +240,9 @@
 # Class#59
        59. Borrar una Base de datos para recrearla para EM
               * dbca
+# Class#60
+       60. Crear la Base de Datos con Enterprise Manager
+              show PARAMETEr disparchers;
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
