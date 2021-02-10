@@ -230,6 +230,8 @@
        55. Utilidad LSNRCTL
               * status
               * services
+# Class#56
+       56. Crear SQLNET y TNSNAMES
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
