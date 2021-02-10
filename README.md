@@ -216,6 +216,12 @@
 # Class#52       
        52. Formas de Conexión
               sqlplus system/Test2021* as sysdba@node1:1521/orcl
+# Class#53
+       53. LISTENER. Ficheros de configuración
+           En la ruta $ORACLE_HOME/network/admin
+              * listener.ora
+              * tnsnames.ora
+              * sqlnet.ora
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
