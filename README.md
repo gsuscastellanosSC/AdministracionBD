@@ -251,6 +251,8 @@
        63. Ejemplo: Cambiar parámetros de la Base de datos con EM
 # Class#64
        64. Descargar SqlDeveloper
+# Class#65
+       65. Instalar y Configurar SqlDeveloper
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
