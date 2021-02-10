@@ -243,8 +243,10 @@
 # Class#60
        60. Crear la Base de Datos con Enterprise Manager
               show PARAMETEr disparchers;
-# Class#61       
+# Class#61
        61. Cambios de Enterprise Manager en la 19c
+# Class#62       
+       62. Repaso Enterprise Manager
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
