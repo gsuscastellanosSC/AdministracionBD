@@ -234,6 +234,9 @@
        56. Crear SQLNET y TNSNAMES
 # Class#57       
        57. NETMGR. Otra utilidad de configuración de red
+              * netmgr
+# Class#58
+       NOTA IMPORTANTE: Fin de uso de FLASH en los navegadores
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
