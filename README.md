@@ -213,13 +213,18 @@
               select * from v$system_parameter where name='service_names';
               select * from v$system_parameter where name='db_name';
               select * from v$system_parameter where name='db_domain';
+              select value from v$parameter where name='service_names'
 # Class#52       
        52. Formas de Conexión
-              sqlplus system/Test2021* as sysdba@node1:1521/orcl
+              sqlplus ${user}/${pass} as sysdba@node1:1521/ORCLCDB.localdomain
+              sqlplus ${user}/${pass}@157.245.14.146:1521/ORCLCDB.localdomain as sysdba
 # Class#53
        53. LISTENER. Ficheros de configuración
            En la ruta $ORACLE_HOME/network/admin
               * listener.ora
+                     ${Database}=(select value from v$parameter where name='service_names';)
+                     ORCLCDB =   (DESCRIPTION =     (ADDRESS = (PROTOCOL = TCP)(HOST = 157.245.14.146))(PORT = 1521))     (CONNECT_DATA =       (SERVER = DEDICATED)       (SERVICE_NAME = ${Database})     )   )
+                     ORCLPDB1 =   (DESCRIPTION =     (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))     (CONNECT_DATA =       (SERVER = DEDICATED)       (SERVICE_NAME = ${Database})     )   )
               * tnsnames.ora
               * sqlnet.ora
 # Class#54
@@ -255,6 +260,8 @@
        65. Instalar y Configurar SqlDeveloper
 # Class#66
        66. Introducción al almacenamiento
+# Class#67
+       67. Vistas para ver tablespaces. Tablespaces por defecto
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
