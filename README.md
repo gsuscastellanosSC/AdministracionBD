@@ -265,10 +265,8 @@
 # Class#68       
        68. Crear una Tablespace. Tablespace por defecto
               -> /opt/oracle/oradata (Rura donde esta la BD)
-              how create tables spaces:
-                     1. sudo su
-                     2. mkdir nameTableSpace
-                     3. chown oracle:dba nameTableSpace (cat /etc/group)
+# Class#69
+       69. Gestión de Extensiones . AUTOALLOCATE
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
