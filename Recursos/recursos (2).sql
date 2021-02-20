@@ -19,5 +19,5 @@ ALTER TABLESPACE TBS3
       NEXT 512K
       MAXSIZE 250M;
       
- ALTER DATABASE DATAFILE '/home/oracle/bbdd/stuff01.dbf'
-   RESIZE 100M;
+ ALTER DATABASE DATAFILE '/home/oracle/bbdd/TBS3.dbf'
+   RESIZE 1M;
