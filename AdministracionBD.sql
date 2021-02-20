@@ -41,3 +41,5 @@
 	--@Recursos/Renombrar+y+mover+ficheros.sql
 /*Class#76*/	
 	--@Recursos/@temporalles.sql
+/*Class#77*/	
+	--@Recursos/@temporalles.sql
