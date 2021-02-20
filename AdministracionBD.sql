@@ -1,6 +1,6 @@
 /*Class#67*/
 	/*1. Listado de los tables spaces*/
-		SELECT * FROM DBA_TABLESPACES ;
+		SELECT * FROM DBA_TABLESPACES;
 			/*--SYSTEM---- \
 			--SYSAUX----- \ 
 			               \->TABLE spaces administrados por oracle
@@ -17,3 +17,11 @@
 		SELECT * FROM V$TEMPFILE;
 	/*espacios libres por table spaces*/
 		SELECT * FROM DBA_FREE_SPACE;
+
+/*Class#68*/
+		/*how create tables spaces:
+       		1. sudo su
+            2. mkdir nameTableSpace
+          	3. chown oracle:dba nameTableSpace (cat /etc/group)*/
+		CREATE TABLESPACE NEW_TABLES_SPACE DATAFILE '/home/oracle/bbdd/bbdd.dbf' SIZE 10M; --DATAFILE=> Fichero con el que se va a crear el TABLE SPACE  SIZE=> K M G
+		CREATE TABLESPACE NEW_TABLES_SPACE1 DATAFILE '/home/oracle/bbdd/bbdd1.dbf' SIZE 100K, '/home/oracle/bbdd/bbdd2.dbf' SIZE 10M;
