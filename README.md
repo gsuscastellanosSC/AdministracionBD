@@ -281,6 +281,10 @@
        75. Mover y renombrar ficheros
 # Class#76
        76. Tablespace temporales. Introducción
+# Class#77
+       77. Trabajar con Tablespaces temporales
+# Class#78
+       78. Borrar una Tablespace
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381

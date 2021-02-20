@@ -41,5 +41,8 @@
 	--@Recursos/Renombrar+y+mover+ficheros.sql
 /*Class#76*/	
 	--@Recursos/@temporalles.sql
-/*Class#77*/	
+/*Class#77*/
 	--@Recursos/@temporalles.sql
+/*Class#78*/
+	DROP TABLESPACE VENTAS INCLUDING CONTENTS;
+	DROP TABLESPACE VENTAS INCLUDING CONTENTS AND DATAFILES;
