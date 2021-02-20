@@ -35,3 +35,7 @@
 	--@Recursos/cambiar+estado.sql
 /*Class#73*/
 	--@Recursos/recursos (2).sql
+/*Class#74*/
+	--@Recursos/recursos (2).sql
+/*Class#75*/
+	--@Renombrar+y+mover+ficheros.sql

@@ -277,6 +277,8 @@
        73. Autoextender ficheros
 # Class#74
        74. Cambiar manualmente el tamaño de un fichero
+# Class#75       
+       75. Mover y renombrar ficheros
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
