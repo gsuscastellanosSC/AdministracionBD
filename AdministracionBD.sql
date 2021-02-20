@@ -38,4 +38,6 @@
 /*Class#74*/
 	--@Recursos/recursos (2).sql
 /*Class#75*/
-	--@Renombrar+y+mover+ficheros.sql
+	--@Recursos/Renombrar+y+mover+ficheros.sql
+/*Class#76*/	
+	--@Recursos/@temporalles.sql
