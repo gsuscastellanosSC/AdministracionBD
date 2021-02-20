@@ -269,8 +269,10 @@
        69. Gestión de Extensiones . AUTOALLOCATE
 # Class#70
        70. Gestión de extensiones: UNIFORM
-# Class#71       
+# Class#71
        71. Añadir ficheros a una tablespace
+# Class#72
+       72. Cambiar el estado de un Tablespace: OFFLINE, READ_ONLY
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381

@@ -30,3 +30,6 @@
 /*Class#70*/
 	--@Recursos/recursos(1).sql
 /*Class#71*/
+	ALTER TABLESPACE TBS2 ADD DATAFILE '/home/oracle/bbdd/t4-1.dbf' SIZE 50M;
+/*Class#72*/
+	--@Recursos/cambiar+estado.sql
