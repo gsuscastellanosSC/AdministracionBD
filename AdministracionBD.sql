@@ -27,5 +27,6 @@
 		CREATE TABLESPACE NEW_TABLES_SPACE1 DATAFILE '/home/oracle/bbdd/bbdd1.dbf' SIZE 100K, '/home/oracle/bbdd/bbdd2.dbf' SIZE 10M;
 /*Class#69*/
 	--@Recursos/recursos.sql
-/*Class#67*/
+/*Class#70*/
 	--@Recursos/recursos(1).sql
+/*Class#71*/
