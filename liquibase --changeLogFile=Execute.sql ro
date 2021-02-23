@@ -1,0 +1,7 @@
+liquibase --changeLogFile=Execute.sql  rollbackOneUpdate --force       
+
+liquibase --changeLogFile=Execute.sql rollbackToDate 2021-02-20 23:00:00
+
+liquibase --changeLogFile=Execute.sql rollback tag
+
+liquibase --changeLogFile=Execute.sql rollbackCount 1

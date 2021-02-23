@@ -285,8 +285,10 @@
        77. Trabajar con Tablespaces temporales
 # Class#78
        78. Borrar una Tablespace
-# Class#79       
+# Class#79
        79. Uso de Enterprise Manager con Tablespaces
+# Class#80      
+       80. Introducción a los ficheros de Control
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
