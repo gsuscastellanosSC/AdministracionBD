@@ -62,3 +62,14 @@
 	SELECT * FROM v$controlfile;
 	show parameters control;
 	SELECT * from v$database;
+/*Class#82*/
+	/*
+	  spfile--->control_files --> ficheros
+	  init.ora
+	  spfile --> init.ora --> spfile
+	  
+	 */
+	--sqlplus  / as sysdba
+	CREATE pfile='/home/oracle/bbdd/init.ora' FROM spfile;
+	
+

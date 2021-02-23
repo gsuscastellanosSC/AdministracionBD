@@ -289,8 +289,12 @@
        79. Uso de Enterprise Manager con Tablespaces
 # Class#80
        80. Introducción a los ficheros de Control
-# Class#81       
+# Class#81
        81. Comprobar los ficheros de control
+# Class#82
+       82. Crear un init.ora desde un SPFILE
+       -> cd $ORACLE_HOME/dbs 
+       -> cat spfileORCLCDB.ora 
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
