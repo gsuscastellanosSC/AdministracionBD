@@ -49,3 +49,16 @@
 /*Class#79*/
 
 /*Class#80*/
+
+/*Class#81*/
+	/*Nombre de la Base de Datos
+	  Nombre y ubicación de los ficheros de datos y los redo log
+	  nomount - mount - open
+	  Fecha de creación de la Base de datos
+	  El número de Redo Log actual
+	  Información de Checkpoint
+	  etc...
+	 */
+	SELECT * FROM v$controlfile;
+	show parameters control;
+	SELECT * from v$database;
