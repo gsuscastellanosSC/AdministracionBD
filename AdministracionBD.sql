@@ -99,3 +99,8 @@
     show parameter undo;
     alter system set undo_retention=1800;
     alter tablespace UNDOTBS2 retention GUARANTEE;
+/*Class#92*/
+    select * from dba_rollback_segs;
+    select * from v$undostat;
+    SELECT * from v$rollstat;
+    select * from dba_undo_extents;
