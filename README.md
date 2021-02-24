@@ -297,6 +297,8 @@
        -> cat spfileORCLCDB.ora 
 # Class#83
      83. Añadir un ControlFile y arrancar con init.ora  
+# Class#84
+     84. Crear un SPFILE desdes un init.ora. Arrancar de nuevo la Base de datos
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381

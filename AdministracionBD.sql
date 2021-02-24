@@ -78,4 +78,7 @@
 	--START pfile=/home/oracle/bbdd/init.ora (Cambiar por el nuevo fichero de control)
 	--shutdown abort;
     --show parameter control;
-    
+/*Class#84*/
+    CREATE pfile='/home/oracle/bbdd/init.ora' FROM spfile;
+    --shutdown immediate;--(Se debe de "apagar" la bd y reinicar para que "tome" los cambios);
+    --startup
