@@ -60,16 +60,22 @@
 	  etc...
 	 */
 	SELECT * FROM v$controlfile;
-	show parameters control;
+	--show parameters control;
 	SELECT * from v$database;
 /*Class#82*/
 	/*
 	  spfile--->control_files --> ficheros
-	  init.ora
+      cat $ORACLE_HOME/dbs/init.ora
 	  spfile --> init.ora --> spfile
 	  
 	 */
 	--sqlplus  / as sysdba
-	CREATE pfile='/home/oracle/bbdd/init.ora' FROM spfile;
-	
-
+	CREATE pfile='/home/oracle/bbdd/init.ora' FROM spfile;--(Se genera el nuevo init.ora)
+/*Class#83*/
+	--shutdown immediate;(Se debe de "apagar" la bd antes de compiar el archivo)
+    --cp /opt/oracle/oradata/ORCLCDB/control02.ctl
+    --nano /home/oracle/bbdd/init.ora( agregar ruta del nuevo control_files='/opt/oracle/oradata/ORCLCDB/control01.ctl','/home/oracle/bbdd/control03.ctl')
+	--START pfile=/home/oracle/bbdd/init.ora (Cambiar por el nuevo fichero de control)
+	--shutdown abort;
+    --show parameter control;
+    
