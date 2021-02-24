@@ -133,4 +133,6 @@
     ALTER DATABASE DROP LOGFILE MEMBER '/home/oracle/bbdd/grupo1-log2.log';
     ALTER SYSTEM SWITCH LOGFILE;
     ALTER DATABASE DROP LOGFILE MEMBER'/u01/app/oracle/oradata/ORCL/redo03.log';
-    
+/*Class#100*/
+    SELECT * FROM V$LOG;
+    ALTER DATABASE DROP LOGFILE GROUP 1;

@@ -327,6 +327,8 @@
        98. Añadir un grupo de Redo Log
 # Class#99
        99. Borrar un miembro de un grupo de Redo Log
+# Class#100       
+       100. Borrar un grupo de Redo Log
 # Links
        OFA- Optimal Flexible Architecture:
               https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
