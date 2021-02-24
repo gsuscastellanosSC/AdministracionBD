@@ -313,8 +313,10 @@
        91. Periodo de retención de UNDO. UNDO_RETENTION  
 # Class#92
        92. Vistas para consultar UNDO
-# Class#93       
+# Class#93
        93. Borrar Tablespace UNDO
+# Class#94       
+       94. Enterprise Manager y UNDO
 # Links
        OFA- Optimal Flexible Architecture:
               https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
