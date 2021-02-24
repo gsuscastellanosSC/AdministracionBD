@@ -83,3 +83,4 @@
     --shutdown immediate;--(Se debe de "apagar" la bd y reinicar para que "tome" los cambios);
     --startup
 /*Class#85*/
+/*Class#86*/
