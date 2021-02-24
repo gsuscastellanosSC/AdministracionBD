@@ -301,7 +301,10 @@
      84. Crear un SPFILE desdes un init.ora. Arrancar de nuevo la Base de datos
 # Class#85
      85. Enterprise Manager y ControlFile
-
+# Class#86
+     86. Introducción a UNDO
+# Class#87
+     87. Consistencia en lectura
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
