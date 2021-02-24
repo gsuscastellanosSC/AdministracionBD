@@ -93,3 +93,5 @@
     select * from dba_tablespaces WHERE CONTENTS='UNDO';
 /*Class#89*/
     --@Recursos/transacciones.sql
+/*Class#90*/    
+    --@Recursos/tablespace_undo.sql
