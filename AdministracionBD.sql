@@ -126,3 +126,11 @@
     ALTER DATABASE ADD LOGFILE GROUP 5 ('/home/oracle/bbdd/grupo4-log4.log','/home/oracle/bbdd/grupo5-log5.log') size 200M;
     alter system switch logfile;
     SELECT * FROM V$LOGFILE;
+/*Class#99*/
+    --@Recursos/borrar+miembro+grupo.sql
+    SELECT * FROM V$LOG;
+    SELECT * FROM V$LOGFILE;
+    ALTER DATABASE DROP LOGFILE MEMBER '/home/oracle/bbdd/grupo1-log2.log';
+    ALTER SYSTEM SWITCH LOGFILE;
+    ALTER DATABASE DROP LOGFILE MEMBER'/u01/app/oracle/oradata/ORCL/redo03.log';
+    
