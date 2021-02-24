@@ -91,3 +91,5 @@
     */
     show parameter undo;
     select * from dba_tablespaces WHERE CONTENTS='UNDO';
+/*Class#89*/
+    --@Recursos/transacciones.sql
