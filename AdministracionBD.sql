@@ -82,3 +82,4 @@
     CREATE pfile='/home/oracle/bbdd/init.ora' FROM spfile;
     --shutdown immediate;--(Se debe de "apagar" la bd y reinicar para que "tome" los cambios);
     --startup
+/*Class#85*/
