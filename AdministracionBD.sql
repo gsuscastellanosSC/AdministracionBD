@@ -104,3 +104,7 @@
     select * from v$undostat;
     SELECT * from v$rollstat;
     select * from dba_undo_extents;
+/*Class#93*/
+    DROP TABLESPACE UNDOTBS1 INCLUDING CONTENTS AND DATAFILES;
+    SELECT * FROM DBA_TABLESPACES WHERE CONTENTS='UNDO';
+    SELECT * FROM dba_rollback_segs;

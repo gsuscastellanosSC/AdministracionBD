@@ -293,28 +293,30 @@
        81. Comprobar los ficheros de control
 # Class#82
        82. Crear un init.ora desde un SPFILE
-       -> cd $ORACLE_HOME/dbs 
-       -> cat spfileORCLCDB.ora 
+              -> cd $ORACLE_HOME/dbs 
+              -> cat spfileORCLCDB.ora 
 # Class#83
-     83. Añadir un ControlFile y arrancar con init.ora  
+       83. Añadir un ControlFile y arrancar con init.ora  
 # Class#84
-     84. Crear un SPFILE desdes un init.ora. Arrancar de nuevo la Base de datos
+       84. Crear un SPFILE desdes un init.ora. Arrancar de nuevo la Base de datos
 # Class#85
-     85. Enterprise Manager y ControlFile
+       85. Enterprise Manager y ControlFile
 # Class#86
-     86. Introducción a UNDO
+       86. Introducción a UNDO
 # Class#87
-     87. Consistencia en lectura
+       87. Consistencia en lectura
 # Class#89
-     88. Parámetros de UNDO y Tablespaces
+       88. Parámetros de UNDO y Tablespaces
 # Class#90
-     90. Crear Tablespace de UNDO y convertirla en la de por defecto
+       90. Crear Tablespace de UNDO y convertirla en la de por defecto
 # Class#91
-     91. Periodo de retención de UNDO. UNDO_RETENTION  
+       91. Periodo de retención de UNDO. UNDO_RETENTION  
 # Class#92
-     92. Vistas para consultar UNDO
+       92. Vistas para consultar UNDO
+# Class#93       
+       93. Borrar Tablespace UNDO
 # Links
-    OFA- Optimal Flexible Architecture:
-       https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
-    Oracle Database Documentation:
-       https://docs.oracle.com/en/database/oracle/oracle-database/index.html
+       OFA- Optimal Flexible Architecture:
+              https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
+       Oracle Database Documentation:
+              https://docs.oracle.com/en/database/oracle/oracle-database/index.html
