@@ -123,6 +123,6 @@
 /*Class#98*/
     --@Recursos/grupo_redo_log.sql
     SELECT * FROM V$LOG;
-    ALTER DATABASE ADD LOGFILE GROUP 5 ('/bbdd/grupo5-log1.log','/bbdd/grupo5-log2.log') size 200M;
+    ALTER DATABASE ADD LOGFILE GROUP 5 ('/home/oracle/bbdd/grupo4-log4.log','/home/oracle/bbdd/grupo5-log5.log') size 200M;
     alter system switch logfile;
     SELECT * FROM V$LOGFILE;
