@@ -110,4 +110,7 @@
     SELECT * FROM dba_rollback_segs;
 /*Class#94*/
 /*Class#95*/
-    
+/*Class#96*/
+    select * from v$log;
+    select * from v$logfile;
+    alter system SWITCH logfile;

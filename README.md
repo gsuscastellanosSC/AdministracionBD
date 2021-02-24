@@ -317,8 +317,10 @@
        93. Borrar Tablespace UNDO
 # Class#94
        94. Enterprise Manager y UNDO
-# Class#95       
+# Class#95
        95. Introducción a los Redo Logs
+# Class#96
+       96. Ver el funcionamiento de los Redo Logs
 # Links
        OFA- Optimal Flexible Architecture:
               https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
