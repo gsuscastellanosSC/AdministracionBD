@@ -85,3 +85,9 @@
 /*Class#85*/
 /*Class#86*/
 /*Class#87*/
+/*Class#88*/
+    /*rollback segments --> MANUAL
+      AUTO UNDO MANAGEMENT --> UNDO SEGMENTS(AUTO)
+    */
+    show parameter undo;
+    select * from dba_tablespaces WHERE CONTENTS='UNDO';
