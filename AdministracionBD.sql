@@ -93,5 +93,9 @@
     select * from dba_tablespaces WHERE CONTENTS='UNDO';
 /*Class#89*/
     --@Recursos/transacciones.sql
-/*Class#90*/    
+/*Class#90*/
     --@Recursos/tablespace_undo.sql
+/*Class#91*/
+    show parameter undo;
+    alter system set undo_retention=1800;
+    alter tablespace UNDOTBS2 retention GUARANTEE;

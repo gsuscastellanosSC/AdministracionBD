@@ -309,6 +309,8 @@
      88. Parámetros de UNDO y Tablespaces
 # Class#90
      90. Crear Tablespace de UNDO y convertirla en la de por defecto
+# Class#91
+     91. Periodo de retención de UNDO. UNDO_RETENTION  
 # Links
     OFA- Optimal Flexible Architecture:
        https://docs.oracle.com/cd/E11882_01/install.112/e47689/appendix_ofa.htm#LADBI1381
